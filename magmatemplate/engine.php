@@ -41,7 +41,9 @@ class Engine {
 			'out' => '\MagmaTemplate\Blocks::out',
 			'dump' => 'var_dump',
 			'has' => '\MagmaTemplate\Helper::has',
-			'replace' => 'str_replace'
+			'replace' => 'str_replace',
+
+			'ctnSort' => '\MagmaTemplate\Helper::ctnSort'
 		];
 
 		$this->templPath = $templPath;
